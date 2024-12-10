@@ -12,7 +12,7 @@ mp_face_mesh = mp.solutions.face_mesh
 face_mesh = mp_face_mesh.FaceMesh(
     max_num_faces=1,
     refine_landmarks=False,
-    min_detection_confidence=0.3,
+    min_detection_confidence=0.8,
     min_tracking_confidence=0.5
 )
 
