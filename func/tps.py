@@ -78,10 +78,8 @@ def apply_tps_with_mask(img, source_points, target_points, face_rect):
     hull = cv2.convexHull(np.array(source_points, dtype=np.int32))
     cv2.fillConvexPoly(mask, hull, 1)
 
-    map_x = np.where(mask[min_y:max_y, min_x:max_x],
-                     map_x, grid_x).astype(np.float32)
-    map_y = np.where(mask[min_y:max_y, min_x:max_x],
-                     map_y, grid_y).astype(np.float32)
+    map_x = np.where(mask[min_y:max_y, min_x:max_x],map_x, grid_x).astype(np.float32)
+    map_y = np.where(mask[min_y:max_y, min_x:max_x], map_y, grid_y).astype(np.float32)
 
     transformed_points = np.column_stack((map_x.ravel(), map_y.ravel()))
 
