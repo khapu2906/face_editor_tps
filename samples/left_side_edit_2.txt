@@ -1,0 +1,47 @@
+target_points[full_face["eyes"]["left"]["inter_corner"]] += [0, -1]
+    target_points[full_face["eyes"]["left"]["outer_corner"]] += [+1, +2]
+    target_points[full_face["eyes"]["right"]["outer_corner"]] += [-1, +2]
+
+    target_points[full_face["eyes"]["left"]["upper"]] += [+3, 0]
+    target_points[157] += [0, +2]
+    target_points[full_face["eyes"]["left"]["lower"]] += [+3, 0]
+    target_points[full_face["eyes"]["left"]["tail"]] += [+4, +2]
+
+
+    target_points[full_face["nose"]["bridges"]["upper"]["h"]] += [-1, 0]
+    target_points[full_face["nose"]["bridges"]["tip"]["h"]] += [-1, 0]
+    target_points[full_face["nose"]["bridges"]["lower"]["h"]] += [-1, 0]
+    target_points[full_face["nose"]["wings"]["left"]] += [-1, +1]
+    target_points[full_face["nose"]["wings"]["right"]] += [-1, +1]
+    target_points[full_face["nose"]["hole"]["left"]] += [-1, +1]
+    target_points[full_face["nose"]["hole"]["right"]] += [-1, +1]
+
+    target_points[full_face["cheek"]["left"]["tip"]] += [2, -3]
+
+
+    # Mouth
+    target_points[full_face["mouth"]["corners"]["left"]] += [+2, +1]
+    target_points[full_face["mouth"]["corners"]["right"]] += [-1, +1]
+    target_points[full_face["mouth"]["philtrum"]["left"]] += [-1, -3]
+    target_points[full_face["mouth"]["philtrum"]["center"]] += [-1, -3]
+    target_points[full_face["mouth"]["philtrum"]["right"]] += [-1, -3]
+    
+    target_points[full_face["mouth"]["lips"]["upper"]["outer"]["left"]] += [-1, -1]
+    target_points[full_face["mouth"]["lips"]["upper"]["outer"]["center"]] += [-4, -3]
+    target_points[full_face["mouth"]["lips"]["upper"]["inter"]["center"]] += [-1, 0]
+    target_points[full_face["mouth"]["lips"]["upper"]["outer"]["right"]] += [-1, -1]
+
+    target_points[full_face["mouth"]["lips"]["lower"]["outer"]["left"]] += [0, -1]
+    target_points[full_face["mouth"]["lips"]["lower"]["outer"]["center"]] += [-3, -1]
+    target_points[full_face["mouth"]["lips"]["lower"]["inter"]["center"]] += [+1, -1]
+    target_points[full_face["mouth"]["lips"]["lower"]["outer"]["right"]] += [0, -1]
+
+    target_points[full_face["chin"]["left"]] += [+2, +14]
+    target_points[full_face["chin"]["center"]] += [+7, +13]
+    target_points[full_face["chin"]["right"]] += [+2, +12]
+
+    target_points[full_face["jaw"]["left"]] += [-4, +12]
+    target_points[full_face["jaw"]["right"]] += [0, +4]
+
+    target_points[full_face["left"]] += [0, -3]
+    target_points[full_face["right"]] += [0, -3]
